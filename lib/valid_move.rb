@@ -6,3 +6,4 @@ def valid_move?(board, num)
 def position_taken?(board, num)
   (board[num] == " " || board[num] == "" || board[num] == nil)?
   false : true
+end
